@@ -8,4 +8,5 @@ export interface Car {
     type: string;
     color: string;
     motor: Motor;
+    image?: string;
 }
