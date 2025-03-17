@@ -1,23 +1,27 @@
-import Link from "next/link";
-import React from "react";
-import Cars from "@/cars/page";
+"use client";
+
+import React from 'react';
+import Link from 'next/link';
 
 type Props = {};
 
-export default function Menu({}: Props){
-  return(
-    <div>
-      <ul>
-        <li>
-          <Link href="/" > Home</Link>
-        </li>
-        <li>
-          <Link href="/Cars" > Cars</Link>
-        </li>
-        <li>
-          <Link href="/Trucks" > Trucks</Link>
-        </li>
-      </ul>
-    </div>
-  )
+export default function Menu({ }: Props) {
+    return (
+        <nav className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 p-4 shadow-lg rounded-xl">
+            <ul className='flex space-x-6 justify-center'>
+                <li>
+                    <Link className="px-5 py-2 text-white font-semibold rounded-lg transition duration-300 
+                        bg-gray-800 bg-opacity-40 hover:bg-white hover:text-gray-900 shadow-md" href="/">Home</Link>
+                </li>
+                <li>
+                    <Link className="px-5 py-2 text-white font-semibold rounded-lg transition duration-300 
+                        bg-gray-800 bg-opacity-40 hover:bg-white hover:text-gray-900 shadow-md" href="/cars">Cars</Link>
+                </li>
+                <li>
+                    <Link className="px-5 py-2 text-white font-semibold rounded-lg transition duration-300 
+                        bg-gray-800 bg-opacity-40 hover:bg-white hover:text-gray-900 shadow-md" href="/trucks">Trucks</Link>
+                </li>
+            </ul>
+        </nav>
+    );
 }
