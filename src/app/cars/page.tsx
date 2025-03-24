@@ -4,7 +4,7 @@ import CarList from '../components/car/carList'
 import { Car } from '../../../lib/types';
 
 
-type Props = {}
+type Props = {};
 
 const cars: Car[] = [
     {
