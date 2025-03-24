@@ -1,8 +1,8 @@
 import React from 'react'
 
-type Props = {}
 
-export default function Trucks({ }: Props) {
+
+export default function Trucks() {
     return <div><h1>Trucks</h1></div>;
 
 }
