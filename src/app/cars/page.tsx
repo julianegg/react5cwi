@@ -4,7 +4,7 @@ import CarList from '../components/car/carList'
 import { Car } from '../../../lib/types';
 
 
-type Props = {};
+
 
 const cars: Car[] = [
     {
@@ -41,7 +41,7 @@ const cars: Car[] = [
     }
 ];
 
-export default function Cars({ }: Props) {
+export default function Cars() {
     const [showOnlyFirst, setShowOnlyFirst] = useState(false);
     const [searchTerm, setSearchTerm] = useState('');
 
