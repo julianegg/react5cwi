@@ -32,6 +32,7 @@ export default function Card({ car }: Props) {
       <h2 className="text-gray-500 text-sm">
         Motor: {car.motor.serialNumber} | {car.motor.hp} HP
       </h2>
+      <h2 className='mt-5 text-2x1 text-gray-700'>Preis: € {car.price}</h2>
       <span
         className={`inline-block mt-2 px-3 py-1 text-sm font-semibold rounded-full 
                 ${

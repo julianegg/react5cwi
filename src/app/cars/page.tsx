@@ -16,7 +16,8 @@ const cars: Car[] = [
             serialNumber: 1111,
             hp: 680,
         },
-        image: "sto.jpg"
+        image: "sto.jpg",
+        price: 300000,
         
     },
     {
@@ -27,7 +28,8 @@ const cars: Car[] = [
             serialNumber: 2222,
             hp: 780,
         },
-        image: "ferrari.jpg"
+        image: "ferrari.jpg",
+        price: 250000,
     },
     {
         name: "McLaren",
@@ -37,7 +39,8 @@ const cars: Car[] = [
             serialNumber: 3333,
             hp: 650,
         },
-        image: "mclaren.jpg"
+        image: "mclaren.jpg",
+        price: 200000,
     }
 ];
 
@@ -74,4 +77,3 @@ export default function Cars() {
         </div>
     )
 }
-//hahaah

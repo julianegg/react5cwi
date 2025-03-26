@@ -9,4 +9,5 @@ export interface Car {
     color: string;
     motor: Motor;
     image?: string;
+    price?: number;
 }
