@@ -47,6 +47,15 @@ export default function Menu() {
           <Link
             className="px-5 py-2 text-white font-semibold rounded-lg transition duration-300 
                         bg-gray-800 bg-opacity-40 hover:bg-white hover:text-gray-900 shadow-md"
+            href="/bikes"
+          >
+            Bikes
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="px-5 py-2 text-white font-semibold rounded-lg transition duration-300 
+                        bg-gray-800 bg-opacity-40 hover:bg-white hover:text-gray-900 shadow-md"
             href="/motorcycles"
           >
             Motorcycles
